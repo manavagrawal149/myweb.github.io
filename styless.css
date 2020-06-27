@@ -1,0 +1,184 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 5;
+    background-color: coral; 
+  }
+  .entry-div{
+      background-color:lightgray ;
+  }
+  .tittle{
+      font-size: 600%;
+      padding: 40px;
+      font-family: 'Great Vibes', cursive;
+      color: lightskyblue;
+  }
+  .entry-p{
+      font size: 150%;
+      font-family: 'Great Vibes', cursive;
+      padding: 0 0 50px 0;
+      
+  }
+  .entry-img{
+      height: 60%;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .intro{
+      text-align: center;
+      font-size: 50px;
+      font-family: 'IM Fell Great Primer SC', serif;
+      
+  }
+  .intro img{
+      width:200px;
+      border-radius: 50%;
+      
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+  }
+  .skills p{
+      padding: 30px 200px;
+  }
+  .skills img{
+      width: 500px;
+      border-radius: 100%;
+      float: left;
+      padding: 0 20px 0;
+  }
+  .skills p{
+      font-size: 20px;
+  }
+  .skills h3{
+    font-family: 'Great Vibes', cursive;
+    font size: 50px;
+  }
+  .skills h1{
+    font-family: 'IM Fell Great Primer SC', serif;
+    text-decoration: underline;
+  }
+  .skills-2 img{
+      width: 300px;
+      border-radius: 50%;
+      float: right;
+      padding: 0 20px 0;
+  }
+  .skills-2 p{
+      font-size: 20px;
+  }
+  .skills-2{
+      padding: 30px 200px;
+  }
+  .skills-2 h3{
+      font-size: 40px;
+      font-family: 'Great Vibes', cursive;
+      
+  }
+#get-in-touch p{
+font-family:'Great Vibes', cursive ;
+font-size: 30px;
+padding: 30px 0 0;
+}
+#footer{
+    background-color: lightgray;
+    padding: 20px 0 0px;
+}
+.icon{
+    padding: 5px 5px 0 0;
+    width: 40px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+hr{
+    padding: 10px 0;
+    display: inline-flex;
+    border-width: 5px 0 0;
+    border-style: dotted;
+    width: 50px;
+    
+}
+img .icon{
+    align-items: center;
+}
+nav.class{
+    font-size: larger;
+}
+@tailwind base;
+
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600 underline;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+<style>
+.chat-notification {
+    display: flex;
+    max-width: 24rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.chat-notification-logo-wrapper {
+    flex-shrink: 0;
+}
+
+.chat-notification-logo {
+    height: 3rem;
+    width: 3rem;
+}
+
+.chat-notification-content {
+    margin-left: 1.5rem;
+    padding-top: 0.25rem;
+}
+
+.chat-notification-title {
+    color: #1a202c;
+    font-size: 1.25rem;
+    line-height: 1.25;
+}
+
+.chat-notification-message {
+    color: #718096;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
